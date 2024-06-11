@@ -1,0 +1,366 @@
+/* Global Styling */
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Generelle stilarter */
+footer {
+  text-align: center;
+  color: #583a13;
+  font-family: "Poppins", sans-serif;
+}
+
+hr {
+  color: #df8a09;
+}
+
+h1 {
+  color: #583a13;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 5rem;
+  text-align: center;
+}
+
+h2 {
+  color: #583a13;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 5%;
+}
+
+h3 {
+  color: #000000;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.5rem;
+}
+
+.kontakt {
+  text-align: justify;
+}
+
+p {
+  color: #583a13;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.2rem;
+}
+
+.text_under_overskrift_forside,
+.text_under_overskrift_portfolio,
+.text_under_overskrift_web,
+.text_under_overskrift_ux,
+.text_under_overskrift_animation,
+.text_under_overskrift_indhold {
+  color: #583a13;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 65ch;
+  margin: auto;
+}
+
+.grid_web_first,
+.grid_web_second,
+.grid_web_third,
+.grid_ux_first,
+.grid_ux_second,
+.grid_animation_first,
+.grid_animation_second,
+.grid_indhold_first,
+.grid_indhold_second {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 5%;
+}
+
+.grid_cv_img_text {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 3%;
+}
+
+.underoverskrift_cv {
+  margin-right: 15%;
+}
+
+.grid_cv1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 15%;
+}
+
+.grid_cv2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 15%;
+  padding-bottom: 2%;
+}
+
+.grid_knapper_forside {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 10%;
+  padding-left: 22%;
+}
+
+.img_cv {
+  display: inline-block;
+  background-color: #f29c1b;
+  padding: 30px;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin-left: 40%;
+}
+
+.img_cv img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.text_skitser,
+.text_wireframe_ux {
+  color: #583a13;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 65ch;
+  margin: auto;
+}
+
+.text_img {
+  color: #583a13;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.2rem;
+  text-align: justify;
+  width: 65ch;
+  margin-left: 18%;
+}
+
+/* Knapp Styling */
+.knap_portfolio,
+.knap_cv,
+.knap_grund_web,
+.knap_grund_ux,
+.knap_grund_animation,
+.knap_grund_indhold,
+.knap_site_web,
+.knap_research_ide,
+.knap_uxui_site,
+.knap_elementer_spil,
+.knap_passion,
+.knap_virksomhedssite {
+  background-color: #f29c1b;
+  color: #583a13;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  border: none;
+  padding: 10px 30px;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+}
+
+.knap_portfolio:hover,
+.knap_cv:hover,
+.knap_grund_web:hover,
+.knap_grund_ux:hover,
+.knap_grund_animation:hover,
+.knap_grund_indhold:hover,
+.knap_site_web:hover,
+.knap_research_ide:hover,
+.knap_uxui_site:hover,
+.knap_elementer_spil:hover,
+.knap_passion:hover,
+.knap_virksomhedssite:hover {
+  color: #bce0cd;
+}
+
+.text_portfolioknap,
+.text_cvknap {
+  color: #583a13;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.2rem;
+}
+
+/* Back Button */
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: #583a13;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  transition: color 0.3s;
+  padding: 10px 20px;
+}
+
+.back-button .arrow {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #333;
+  border-left: 2px solid #333;
+  transform: rotate(-45deg);
+  margin-right: 6px;
+}
+
+.back-button:hover {
+  color: #f29c1b;
+}
+
+.back-button:hover .arrow {
+  border-color: #f29c1b;
+}
+
+/* Portfolio buttons layout */
+.knapper_portfolio {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 10%;
+}
+
+.wireframe_ux {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.text_wireframe_ux {
+  padding-top: 3%;
+}
+
+.skitse1 {
+  padding-top: 5%;
+  display: block;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.skitse2 {
+  display: block;
+  width: 80%;
+  margin-left: 10%;
+}
+
+/* Responsiv styling */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .text_under_overskrift_forside,
+  .text_under_overskrift_portfolio,
+  .text_under_overskrift_web,
+  .text_under_overskrift_ux,
+  .text_under_overskrift_animation,
+  .text_under_overskrift_indhold,
+  .text_img,
+  .text_skitser {
+    font-size: 1rem;
+    width: auto;
+    padding: 0 5%;
+  }
+
+  .text_wireframe_ux {
+    font-size: 1rem;
+    width: auto;
+    padding-top: 5%;
+  }
+
+  .grid_knapper_forside {
+    grid-template-columns: 1fr;
+    margin-right: 10%;
+    padding-right: 8%;
+  }
+
+  .grid_cv_img_text,
+  .grid_web_first,
+  .grid_web_second,
+  .grid_web_third,
+  .grid_ux_first,
+  .grid_ux_second,
+  .grid_animation_first,
+  .grid_animation_second,
+  .grid_indhold_first,
+  .grid_indhold_second {
+    grid-template-columns: 1fr;
+    padding-right: 10%;
+  }
+
+  .img_cv {
+    display: block;
+    max-width: 50%;
+    height: auto;
+    padding: 5%;
+  }
+
+  .underoverskrift_cv {
+    margin-left: 5%;
+  }
+
+  .grid_cv1 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid_cv2 {
+    grid-template-columns: 1fr;
+  }
+
+  .knap_portfolio,
+  .knap_cv,
+  .knap_grund_web,
+  .knap_grund_ux,
+  .knap_grund_animation,
+  .knap_grund_indhold,
+  .knap_site_web,
+  .knap_research_ide,
+  .knap_uxui_site,
+  .knap_passion,
+  .knap_virksomhedssite {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .knap_elementer_spil {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .back-button {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+
+  .back-button .arrow {
+    width: 8px;
+    height: 8px;
+  }
+
+  .knapper_portfolio {
+    display: grid;
+    margin-left: 0;
+    justify-content: space-around;
+    padding-bottom: 5%;
+  }
+}
